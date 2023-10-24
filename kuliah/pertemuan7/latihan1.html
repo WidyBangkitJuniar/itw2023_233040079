@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pertemuan7 - Latihan1</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            margin: 50px auto;
+        }
+
+        .kotak1 {
+            background-color: #a872fa;
+            border-radius: 50% 50% 50% 0%;
+            text-align: center;
+            overflow: hidden;
+
+        }
+
+        .kotak2 {
+            text-align: center;
+            background-image: url(IMG_9571.jpg);
+            transition: 2s;
+            /* box-shadow: <x-offset> <y-offset> <blur> <size> <color>;*/
+            box-shadow: 0px 0px 0px 10px red, 0px 0px 0px 20px blue, 0px 0px 0px 30px green, 0px 0px 0px 40px yellow;
+        }
+
+        .kotak2:hover {
+            border-radius: 50%;
+            transform: rotate(7200000deg);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak1">
+        <p>Hallo, saya Widy Bangkit Juniar</p>
+    </div>
+    <div class="kotak2">
+        HALLO
+    </div>
+</body>
+
+</html>

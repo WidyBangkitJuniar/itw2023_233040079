@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Style */
+body {
+  background-image: url(sports.png);
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+}
+
+body .container {
+  width: 900px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header .judul {
+  font-size: 60px;
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 70px;
+  font-weight: bold;
+  padding: 70px;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 45px;
+}
+
+.header a {
+  text-decoration: none;
+  color: red;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: rgb(0, 191, 255);
+  color: white;
+}
+
+.hero {
+  height: 320px;
+  background-image: url(image.jpg);
+  background-size: cover;
+  border-top: 3px solid red;
+  border-bottom: 3px solid blue;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 12px;
+  margin-top: -2px;
+}
+
+.content .penulis a {
+  color: rgb(114, 130, 250);
+  text-decoration: none;
+}
+
+.content .penulis2 a {
+  color: rgb(114, 130, 250);
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+.content .istri {
+  background-image: url(istri\ ali.jpg);
+  height: 300px;
+  width: 450px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .mero {
+  background-image: url(image2.jpg);
+  height: 400px;
+  width: 630px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .graham {
+  background-image: url(graham.jpg);
+  height: 410px;
+  width: 730px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .pildun {
+  background-image: url(image7.jpg);
+  height: 380px;
+  width: 640px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .sementara {
+  background-image: url(image3.jpg);
+  height: 400px;
+  width: 735px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .goat {
+  background-image: url(image4.jpg);
+  height: 490px;
+  width: 735px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #eaeaea;
+  text-decoration: none;
+}
