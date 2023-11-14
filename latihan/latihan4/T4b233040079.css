@@ -130,16 +130,21 @@ table {
 
 /* Style */
 body {
+  background-image: url(../latihhan4/img/sports.png);
   font: 16px/28px arial, sans-serif;
   background-color: #eaeaea;
-  background-image: url(funky-lines.png);
   color: #333;
 }
 
-.container {
-  width: 800px;
+body .container {
+  width: 900px;
   margin: auto;
   background-color: #fff;
+}
+
+.header .judul {
+  font-size: 60px;
+  text-align: center;
 }
 
 .header {
@@ -148,34 +153,34 @@ body {
 }
 
 .header .judul {
-  font-size: 40px;
+  font-size: 70px;
   font-weight: bold;
+  padding: 70px;
 }
 
 .header ul li {
   display: inline-block;
-  margin-top: 20px;
-  margin-right: 10px;
+  margin-top: 30px;
+  margin-right: 45px;
 }
 
 .header a {
   text-decoration: none;
-  color: salmon;
+  color: red;
   padding: 3px;
 }
 
 .header a:hover {
-  background-color: lightskyblue;
+  background-color: rgb(0, 191, 255);
   color: white;
 }
 
 .hero {
-  height: 280px;
-  background-image: url(hero.jpg);
+  height: 320px;
+  background-image: url(../latihan4/img/image.jpg);
   background-size: cover;
-  background-position: 0 -175px;
-  border-top: 5px solid salmon;
-  border-bottom: 5px solid lightskyblue;
+  border-top: 3px solid red;
+  border-bottom: 3px solid blue;
 }
 
 .content {
@@ -188,18 +193,71 @@ body {
 }
 
 .content .penulis {
-  font-size: 11px;
-  margin-top: -5px;
+  font-size: 12px;
+  margin-top: -2px;
 }
 
 .content .penulis a {
-  color: salmon;
+  color: rgb(114, 130, 250);
+  text-decoration: none;
+}
+
+.content .penulis2 a {
+  color: rgb(114, 130, 250);
   text-decoration: none;
 }
 
 .content p {
-  margin-bottom: 20px;
-  font-size: 14px;
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+.content .istri {
+  background-image: url(../latihan4/img/istri\ ali.jpg);
+  height: 300px;
+  width: 450px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .mero {
+  background-image: url(../latihan4/img/image2.jpg);
+  height: 400px;
+  width: 630px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .graham {
+  background-image: url(../latihan4/img/graham.jpg);
+  height: 410px;
+  width: 730px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .pildun {
+  background-image: url(../latihan4/img/image7.jpg);
+  height: 380px;
+  width: 640px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .sementara {
+  background-image: url(../latihan4/img/image3.jpg);
+  height: 400px;
+  width: 735px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
+}
+
+.content .goat {
+  background-image: url(../latihan4/img/image4.jpg);
+  height: 490px;
+  width: 735px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid blue;
 }
 
 .footer {
@@ -211,4 +269,9 @@ body {
   color: #eaeaea;
   text-align: center;
   font-size: 12px;
+}
+
+.footer a {
+  color: #eaeaea;
+  text-decoration: none;
 }

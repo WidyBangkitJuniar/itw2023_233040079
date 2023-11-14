@@ -130,21 +130,16 @@ table {
 
 /* Style */
 body {
-  background-image: url(sports.png);
   font: 16px/28px arial, sans-serif;
   background-color: #eaeaea;
+  background-image: url(../latihan3/img/funky-lines.png);
   color: #333;
 }
 
-body .container {
-  width: 900px;
+.container {
+  width: 800px;
   margin: auto;
   background-color: #fff;
-}
-
-.header .judul {
-  font-size: 60px;
-  text-align: center;
 }
 
 .header {
@@ -153,34 +148,34 @@ body .container {
 }
 
 .header .judul {
-  font-size: 70px;
+  font-size: 40px;
   font-weight: bold;
-  padding: 70px;
 }
 
 .header ul li {
   display: inline-block;
-  margin-top: 30px;
-  margin-right: 45px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 .header a {
   text-decoration: none;
-  color: red;
+  color: salmon;
   padding: 3px;
 }
 
 .header a:hover {
-  background-color: rgb(0, 191, 255);
+  background-color: lightskyblue;
   color: white;
 }
 
 .hero {
-  height: 320px;
-  background-image: url(image.jpg);
+  height: 280px;
+  background-image: url(../latihan3/img/hero.jpg);
   background-size: cover;
-  border-top: 3px solid red;
-  border-bottom: 3px solid blue;
+  background-position: 0 -175px;
+  border-top: 5px solid salmon;
+  border-bottom: 5px solid lightskyblue;
 }
 
 .content {
@@ -193,71 +188,18 @@ body .container {
 }
 
 .content .penulis {
-  font-size: 12px;
-  margin-top: -2px;
+  font-size: 11px;
+  margin-top: -5px;
 }
 
 .content .penulis a {
-  color: rgb(114, 130, 250);
-  text-decoration: none;
-}
-
-.content .penulis2 a {
-  color: rgb(114, 130, 250);
+  color: salmon;
   text-decoration: none;
 }
 
 .content p {
-  margin-bottom: 18px;
-  font-size: 16px;
-}
-
-.content .istri {
-  background-image: url(istri\ ali.jpg);
-  height: 300px;
-  width: 450px;
-  border-top: 5px solid red;
-  border-bottom: 5px solid blue;
-}
-
-.content .mero {
-  background-image: url(image2.jpg);
-  height: 400px;
-  width: 630px;
-  border-top: 5px solid red;
-  border-bottom: 5px solid blue;
-}
-
-.content .graham {
-  background-image: url(graham.jpg);
-  height: 410px;
-  width: 730px;
-  border-top: 5px solid red;
-  border-bottom: 5px solid blue;
-}
-
-.content .pildun {
-  background-image: url(image7.jpg);
-  height: 380px;
-  width: 640px;
-  border-top: 5px solid red;
-  border-bottom: 5px solid blue;
-}
-
-.content .sementara {
-  background-image: url(image3.jpg);
-  height: 400px;
-  width: 735px;
-  border-top: 5px solid red;
-  border-bottom: 5px solid blue;
-}
-
-.content .goat {
-  background-image: url(image4.jpg);
-  height: 490px;
-  width: 735px;
-  border-top: 5px solid red;
-  border-bottom: 5px solid blue;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
 
 .footer {
@@ -269,9 +211,4 @@ body .container {
   color: #eaeaea;
   text-align: center;
   font-size: 12px;
-}
-
-.footer a {
-  color: #eaeaea;
-  text-decoration: none;
 }
