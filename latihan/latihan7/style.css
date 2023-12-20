@@ -31,7 +31,7 @@ body {
 .hero {
   grid-area: hero;
   min-height: 300px;
-  background-image: url(../latihan7/img/hero.png);
+  background-image: url(./img/heroo.jpg);
   background-size: cover;
   background-position: center;
   padding: 50px;
@@ -54,13 +54,13 @@ body {
 
 .feature-1 {
   grid-area: feature-1;
-  background-image: url(../latihan7/img/milsFutsal.png);
+  background-image: url(./img/milsFutsal.png);
   background-size: cover;
 }
 
 .feature-2 {
   grid-area: feature-2;
-  background-image: url(../latihan7/img/milsFootbal.png);
+  background-image: url(./img/milsFootbal.png);
   background-size: cover;
 }
 
